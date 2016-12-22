@@ -1,0 +1,22 @@
+{
+  "name" : "CFO",
+  "scriptType" : "Execute the script separately against each host (using 'runscript')",
+  "allowRunWithNoTarget" : false,
+  "nshScriptParams" : [ {
+    "name" : "Template Path",
+    "index" : 1,
+    "parameterFlagRequired" : false,
+    "acceptValue" : true,
+    "defaultValue" : "/Parag",
+    "valueRequiredAtRuntime" : false,
+    "editable" : false
+  }, {
+    "name" : "Template Name",
+    "index" : 2,
+    "parameterFlagRequired" : false,
+    "acceptValue" : true,
+    "defaultValue" : "Automate-IT",
+    "valueRequiredAtRuntime" : false,
+    "editable" : false
+  } ]
+}
